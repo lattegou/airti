@@ -9,16 +9,16 @@
     <language>zh-CN</language>
     <item>
       <title>v1.0.9</title>
-      <pubDate>Thu, 02 Apr 2026 10:46:23 GMT</pubDate>
+      <pubDate>Thu, 02 Apr 2026 10:55:12 GMT</pubDate>
       <sparkle:version>1.0.9</sparkle:version>
       <sparkle:shortVersionString>1.0.9</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<h3>v1.0.9</h3><p>Bug fixes and improvements.</p>]]></description>
       <enclosure
         url="https://github.com/lattegou/airti/releases/download/v1.0.9/airti-macos-1.0.9-arm64.dmg"
-        length="42012987"
+        length="42013005"
         type="application/x-apple-diskimage"
-        sparkle:edSignature="71uX/YYDfGCN4/OXxDLmxzyR0FkwyKaUgVK1XEFg70a6SQ2ftEGrThFXM1SYvIx5pRm+UzpvKFfN4+pGZSG7AQ=="
+        sparkle:edSignature="IYtEzKb+HZtFrwY2HubvIXUDnzjtVfrhUm46Y1mNozT+JY+5c9ZB7X/EJYNAvhji1WWdmmQqJsj3gKYT4mY5CA=="
       />
     </item>
   </channel>
