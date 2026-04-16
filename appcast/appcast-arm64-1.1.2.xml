@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>airtiz (arm64)</title>
+    <link>https://lattegou.github.io/airtiz/appcast/appcast-arm64.xml</link>
+    <description>airtiz macOS arm64 更新源</description>
+    <language>zh-CN</language>
+    <item>
+      <title>v1.1.2</title>
+      <pubDate>Thu, 16 Apr 2026 10:44:05 GMT</pubDate>
+      <sparkle:version>1.1.2</sparkle:version>
+      <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>v1.1.2</h3><p>Bug fixes and improvements.</p>]]></description>
+      <enclosure
+        url="https://github.com/lattegou/airtiz/releases/download/v1.1.2/airtiz-macos-1.1.2-arm64.dmg"
+        length="37364248"
+        type="application/x-apple-diskimage"
+        sparkle:edSignature="Nxec0x0v35VZpu3FQ866RXD1L15riW9eBA1BoPm+cvQHUUAhGrFbHvVQ7YP9UXAXr10h4uK4cfjD/mzUIkVFBw=="
+      />
+    </item>
+  </channel>
+</rss>
