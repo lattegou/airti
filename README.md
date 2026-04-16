@@ -25,8 +25,8 @@
   <img src="./image/window1.png" alt="AirTiz Window" width="70%"/>
 </p>
 <p align="center">
-  <img src="./image/window2.png" alt="AirTiz Window2" width="40%"/>
-  <img src="./image/menubar.png" alt="AirTiz Menubar" width="40%"/>
+  <img src="./image/menubar.png" alt="AirTiz Menubar" width="35%"/>
+  <img src="./image/window2.png" alt="AirTiz Window2" width="45%"/>
 </p>
 
 ## 简介
