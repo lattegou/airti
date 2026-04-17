@@ -45,9 +45,9 @@ PREPARE_EXTRA_ARGS=""
 if [ "${REUSE_RESOURCES:-0}" = "1" ]; then
   PREPARE_EXTRA_ARGS="--reuse"
 fi
-pnpm prepare "--$APP_ARCH" $PREPARE_EXTRA_ARGS
+pnpm --dir "$ROOT_DIR" prepare "--$APP_ARCH" $PREPARE_EXTRA_ARGS
 
-VERSION="$(node -p "JSON.parse(require('fs').readFileSync('package.json', 'utf8')).version")"
+VERSION="$(node -p "JSON.parse(require('fs').readFileSync('$ROOT_DIR/package.json', 'utf8')).version")"
 BASE_VERSION="${VERSION%%-*}"
 
 if [[ "$VERSION" == *-* ]]; then

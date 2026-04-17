@@ -1,0 +1,29 @@
+{
+  "name": "AirTiz",
+  "version": "1.1.3",
+  "description": "AirTiz",
+  "type": "module",
+  "author": "airtiz.net",
+  "homepage": "https://airtiz.net",
+  "scripts": {
+    "format": "prettier --write .",
+    "lint": "eslint scripts --ext .mjs --fix",
+    "lint:check": "eslint scripts --ext .mjs",
+    "prepare": "node scripts/prepare.mjs",
+    "package": "bash scripts/package.sh"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "axios": "^1.13.2",
+    "yaml": "^2.8.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@napi-rs/canvas": "^0.1.97",
+    "eslint": "9.39.2",
+    "eslint-plugin-import": "^2.32.0",
+    "prettier": "^3.6.2",
+    "tar": "^7.5.2"
+  },
+  "packageManager": "pnpm@10.27.0"
+}

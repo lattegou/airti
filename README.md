@@ -53,11 +53,19 @@ macOS 14.0 及以上版本
 
 Apple Silicon（Intel 版本敬请期待）
 
+
 ## 下载安装
 
 方式一：[GitHub Releases](https://github.com/lattegou/airtiz/releases)
 
 方式二：[官网](https://airtiz.net)
+
+## 编译
+```bash
+pnpm install
+
+npm run package
+```
 
 
 ## 使用说明
